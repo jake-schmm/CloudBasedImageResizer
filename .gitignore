@@ -1,0 +1,7 @@
+ImageProcessor/Web.config
+ImageProcessor/Web.Debug.config
+ImageProcessor/Web.Release.config
+bin/
+obj/
+AWSLambdaFunction/Properties/PublishProfiles
+.vs/

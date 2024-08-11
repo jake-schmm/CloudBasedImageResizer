@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Amazon.Lambda.SQSEvents</name>
+    </assembly>
+    <members>
+        <member name="T:Amazon.Lambda.SQSEvents.SQSBatchResponse">
+            This class can be used as the return type for Lambda functions that have partially
+            succeeded by supplying a list of message IDs that have failed to process.
+            https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#services-sqs-batchfailurereporting
+        </member>
+        <member name="M:Amazon.Lambda.SQSEvents.SQSBatchResponse.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:Amazon.Lambda.SQSEvents.SQSBatchResponse"/>
+            </summary>
+        </member>
+        <member name="M:Amazon.Lambda.SQSEvents.SQSBatchResponse.#ctor(System.Collections.Generic.List{Amazon.Lambda.SQSEvents.SQSBatchResponse.BatchItemFailure})">
+            <summary>
+            Creates a new instance of <see cref="T:Amazon.Lambda.SQSEvents.SQSBatchResponse"/>
+            </summary>
+            <param name="batchItemFailures">A list of batch item failures</param>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSBatchResponse.BatchItemFailures">
+            <summary>
+            Gets or sets the message failures within the batch failures
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.SQSEvents.SQSBatchResponse.BatchItemFailure">
+            <summary>
+            Class representing a SQS message item failure
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSBatchResponse.BatchItemFailure.ItemIdentifier">
+            <summary>
+            MessageId that failed processing
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.SQSEvents.SQSEvent">
+            <summary>
+            Simple Queue Service event
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.Records">
+            <summary>
+            Get and sets the Records
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute">
+            <summary>
+            Class containing the data for message attributes
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute.StringValue">
+            <summary>
+            Get and sets value of message attribute of type String or type Number
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute.BinaryValue">
+            <summary>
+            Get and sets value of message attribute of type Binary
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute.StringListValues">
+            <summary>
+            Get and sets the list of String values of message attribute
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute.BinaryListValues">
+            <summary>
+            Get and sets the list of Binary values of message attribute
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.MessageAttribute.DataType">
+            <summary>
+            Get and sets the dataType of message attribute
+            </summary>
+        </member>
+        <member name="T:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage">
+            <summary>
+            Class representing a SQS message event coming into a Lambda function
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.MessageId">
+            <summary>
+            Get and sets the message id
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.ReceiptHandle">
+            <summary>
+            Get and sets the receipt handle
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.Body">
+            <summary>
+            Get and sets the Body
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.Md5OfBody">
+            <summary>
+            Get and sets the Md5OfBody
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.Md5OfMessageAttributes">
+            <summary>
+            Get and sets the Md5OfMessageAttributes
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.EventSourceArn">
+            <summary>
+            Get and sets the EventSourceArn
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.EventSource">
+            <summary>
+            Get and sets the EventSource
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.AwsRegion">
+            <summary>
+            Get and sets the AwsRegion
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.Attributes">
+            <summary>
+            Get and sets the Attributes
+            </summary>
+        </member>
+        <member name="P:Amazon.Lambda.SQSEvents.SQSEvent.SQSMessage.MessageAttributes">
+            <summary>
+            Get and sets the MessageAttributes
+            </summary>
+        </member>
+    </members>
+</doc>

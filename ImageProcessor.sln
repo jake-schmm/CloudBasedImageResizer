@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImageProcessor", "ImageProcessor\ImageProcessor.vbproj", "{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaFunction", "AWSLambdaFunction\AWSLambdaFunction.csproj", "{019B3453-939B-4757-AEFD-78ACE7347B30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPI", "RestAPI\RestAPI.csproj", "{57717258-1948-4B72-929F-C263AD9988D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageConsumerProject", "ImageConsumerProject\ImageConsumerProject.csproj", "{71305F1D-9229-4784-980C-C1B6FA880961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsumerHost", "RabbitMQConsumerHost\RabbitMQConsumerHost.csproj", "{FFC24688-FB20-4460-9201-A17DA780DE2D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModelLibrary", "ModelLibrary\ModelLibrary.vbproj", "{DDCB9516-FE40-4514-A990-852CE9EAB292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019B3453-939B-4757-AEFD-78ACE7347B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019B3453-939B-4757-AEFD-78ACE7347B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019B3453-939B-4757-AEFD-78ACE7347B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019B3453-939B-4757-AEFD-78ACE7347B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57717258-1948-4B72-929F-C263AD9988D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57717258-1948-4B72-929F-C263AD9988D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57717258-1948-4B72-929F-C263AD9988D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57717258-1948-4B72-929F-C263AD9988D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71305F1D-9229-4784-980C-C1B6FA880961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71305F1D-9229-4784-980C-C1B6FA880961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71305F1D-9229-4784-980C-C1B6FA880961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71305F1D-9229-4784-980C-C1B6FA880961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC24688-FB20-4460-9201-A17DA780DE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC24688-FB20-4460-9201-A17DA780DE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC24688-FB20-4460-9201-A17DA780DE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC24688-FB20-4460-9201-A17DA780DE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCB9516-FE40-4514-A990-852CE9EAB292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCB9516-FE40-4514-A990-852CE9EAB292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCB9516-FE40-4514-A990-852CE9EAB292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCB9516-FE40-4514-A990-852CE9EAB292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA910391-C34B-4F81-BC3C-B518B08DBAA5}
+	EndGlobalSection
+EndGlobal

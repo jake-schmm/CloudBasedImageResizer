@@ -1,0 +1,180 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AWSLambdaFunction/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.7.400.2",
+          "AWSSDK.SimpleNotificationService": "3.7.400.2",
+          "AWSSDK.SimpleSystemsManagement": "3.7.401",
+          "Amazon.Lambda.Core": "2.2.0",
+          "Amazon.Lambda.SQSEvents": "2.2.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.4.1",
+          "Newtonsoft.Json": "13.0.3",
+          "SixLabors.ImageSharp": "3.1.5"
+        },
+        "runtime": {
+          "AWSLambdaFunction.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/2.2.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.400.2": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.2"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.400.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.2"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.2"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.400.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.2"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.2"
+          }
+        }
+      },
+      "AWSSDK.SimpleSystemsManagement/3.7.401": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.2"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SimpleSystemsManagement.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.401.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.5": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSLambdaFunction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "path": "amazon.lambda.core/2.2.0",
+      "hashPath": "amazon.lambda.core.2.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X06Z8zPDZJS/xAoAntSqsxOoSSKKFJMg+0QGPRtlPt1mbP19HFXlXn+q+XqHdVWWFsiH/r7KbDIICr0nsrlwug==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.1",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.SQSEvents/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RyYLgEa6nh+VJrCfTDKxvTLS1+eLDIIDyHgwDY3TR1WQz1+UeDIcccOJvoDk2nmjkSA0TfWJmZX9Ld0ySf57lA==",
+      "path": "amazon.lambda.sqsevents/2.2.0",
+      "hashPath": "amazon.lambda.sqsevents.2.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.400.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hq2GvaU4GMNJOrZfq5K5to9pXgmUvgKs2ITbLmVCs1/DtFThv8hQUmnzzONbxb0n3b7mj7Ztlp0gF6PuuSq+5A==",
+      "path": "awssdk.core/3.7.400.2",
+      "hashPath": "awssdk.core.3.7.400.2.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.400.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sYv3U8EoNu0KhVZn6IoTaIy1x2/kGYRBF91fQ5MLMow5xk1AWO7ldEbLKKkDLRNuF1os2sJYpogcK2tZpyW3A==",
+      "path": "awssdk.s3/3.7.400.2",
+      "hashPath": "awssdk.s3.3.7.400.2.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.7.400.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KY3V0cyztnsiSsdycdIxF2C+jFPij71a9qw+ljx8vrcUO/tRhDIxGASnYx2AYTQ8W4GTvD0nWTLcZ3vBHltmNQ==",
+      "path": "awssdk.simplenotificationservice/3.7.400.2",
+      "hashPath": "awssdk.simplenotificationservice.3.7.400.2.nupkg.sha512"
+    },
+    "AWSSDK.SimpleSystemsManagement/3.7.401": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MoNs8ecnE+Py0IQqoCcTlPPXHx6DUA3H1O0a/PylIQirM3jF/FIfMAfUWtaOlOoEna9k6Sb6LsET14vme/o5eQ==",
+      "path": "awssdk.simplesystemsmanagement/3.7.401",
+      "hashPath": "awssdk.simplesystemsmanagement.3.7.401.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lNtlq7dSI/QEbYey+A0xn48z5w4XHSffF8222cC4F4YwTXfEImuiBavQcWjr49LThT/pRmtWJRcqA/PlL+eJ6g==",
+      "path": "sixlabors.imagesharp/3.1.5",
+      "hashPath": "sixlabors.imagesharp.3.1.5.nupkg.sha512"
+    }
+  }
+}
