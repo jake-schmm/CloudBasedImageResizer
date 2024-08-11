@@ -5,3 +5,4 @@ bin/
 obj/
 AWSLambdaFunction/Properties/PublishProfiles
 .vs/
+AWSLambdaFunction/AWSLambdaFunction.csproj.user
